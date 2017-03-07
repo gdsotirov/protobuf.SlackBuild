@@ -1,0 +1,15 @@
+protobuf: Protobuf (Google's data interchange format)
+protobuf:
+protobuf: Protocol buffers (a.k.a., protobuf) are Google's language-neutral,
+protobuf: platform-neutral, extensible mechanism for serializing structured
+protobuf: data - think XML, but smaller, faster, and simpler. You define how
+protobuf: you want your data to be structured once, then you can use special
+protobuf: generated source code to easily write and read your structured data
+protobuf: to and from a variety of data streams and using a variety of
+protobuf: languages (C++, Java and Python). You can even update your data
+protobuf: structure without breaking deployed programs that are compiled
+protobuf: against the "old" format.
+protobuf: Find out more about protobuf on the Google Developers site at
+protobuf: https://developers.google.com/protocol-buffers/
+protobuf:
+protobuf: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
