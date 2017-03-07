@@ -6,9 +6,9 @@ protobuf: data - think XML, but smaller, faster, and simpler. You define how
 protobuf: you want your data to be structured once, then you can use special
 protobuf: generated source code to easily write and read your structured data
 protobuf: to and from a variety of data streams and using a variety of
-protobuf: languages (C++, Java and Python). You can even update your data
-protobuf: structure without breaking deployed programs that are compiled
-protobuf: against the "old" format.
+protobuf: languages (C++, Java, Python, Objective-C, C#, Javascript, Ruby, Go
+protobuf: and PHP). You can even update your data structure without breaking
+protobuf: deployed programs that are compiled against the "old" format.
 protobuf: Find out more about protobuf on the Google Developers site at
 protobuf: https://developers.google.com/protocol-buffers/
 protobuf:
