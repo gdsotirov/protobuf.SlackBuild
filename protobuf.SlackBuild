@@ -19,13 +19,13 @@
 #
 # Visit SlackPack at https://sotirov-bg.net/slackpack/
 # 
-# $Id: protobuf.SlackBuild,v 1.1 2017/03/07 21:19:04 gsotirov Exp $
+# $Id: protobuf.SlackBuild,v 1.2 2017/03/07 21:38:10 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=protobuf
-VERSION=2.4.1
+VERSION=2.6.1
 ARCh=${ARCH:-i486}
 BUILD=${BUILD:-1}
 
@@ -79,8 +79,8 @@ bin_perms $PKG
 DOCFILES="${DOCFILES} CHANGES.txt CONTRIBUTORS.txt COPYING.txt"
 ( cd $SRC; create_docs $PKG ${NAME}-${VERSION} )
 ( cd $PKG/usr/doc/${NAME}-${VERSION}
-  mv COPYING.txt COPYING
-  mv README.txt README )
+  mv LICENSE COPYING
+  mv README.md README )
 
 mkdir -p $PKG/install
 install -m 644 $CWD/slack-desc     $PKG/install/slack-desc
