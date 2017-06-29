@@ -19,13 +19,13 @@
 #
 # Visit SlackPack at https://sotirov-bg.net/slackpack/
 # 
-# $Id: protobuf.SlackBuild,v 1.4 2017/04/12 18:31:10 gsotirov Exp $
+# $Id: protobuf.SlackBuild,v 1.5 2017/06/29 17:37:02 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=protobuf
-VERSION=3.2.1
+VERSION=3.3.2
 ARCh=${ARCH:-i586}
 BUILD=${BUILD:-1}
 
