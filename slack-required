@@ -1,4 +1,4 @@
-gcc >= 5.3.0
-gcc-g++ >= 5.3.0
-glibc-solibs >= 2.23
-zlib >= 1.2.8
+gcc >= 9.3.0
+gcc-g++ >= 9.3.0
+glibc-solibs >= 2.30
+zlib >= 1.2.11
