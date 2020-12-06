@@ -18,8 +18,6 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #
 # Visit SlackPack at https://sotirov-bg.net/slackpack/
-# 
-# $Id: protobuf.SlackBuild,v 1.5 2017/06/29 17:37:02 gsotirov Exp $
 #
 
 . ../../slack-package.conf
