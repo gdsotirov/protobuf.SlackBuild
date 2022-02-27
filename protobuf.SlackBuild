@@ -23,7 +23,7 @@
 . ../../slack-package.conf
 
 NAME=protobuf
-VERSION=3.11.4
+VERSION=3.19.4
 ARCh=${ARCH:-i586}
 BUILD=${BUILD:-1}
 
@@ -49,7 +49,7 @@ mkdir --parents $PKG
 
 # Extract the source
 cd $TMP
-tar --extract --verbose --file=$CWD/${NAME}-${VERSION}.tar.gz || exit 3
+tar --extract --verbose --file=$CWD/${NAME}-all-${VERSION}.tar.gz || exit 3
 cd $SRC
 fix_source
 
