@@ -23,7 +23,7 @@
 . ../../slack-package.conf
 
 NAME=protobuf
-VERSION=3.19.5
+VERSION=3.19.6
 ARCh=${ARCH:-i586}
 BUILD=${BUILD:-1}
 
